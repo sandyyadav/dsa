@@ -1,0 +1,60 @@
+1. rotate element one by one d times
+void rotate(int *input, int d, int n)
+{
+    //Write your code here
+    
+    
+    for(int i=0;i<d;i++)
+    {
+        int current=input[0];
+        int j;
+        for( j=1;j<n;j++)
+        {
+            input[j-1]=input[j];
+        }
+        input[j-1]=current;
+    }
+}
+2. copy d element in other array and direct rotate element by d place then copy d element back at the end 
+
+void rotate(int *input, int d, int n)
+{
+    //Write your code here
+     int *temp= new int[d];
+     for(int i=0;i<d;i++)
+     {
+         temp[i]=input[i];
+     }
+     int k=0;
+     for(int i=d;i<n;i++)
+     {
+         input[k]=input[i];
+         k++;
+     }
+
+     for(int i=0;i<d;i++)
+     {
+         input[k]=temp[i];
+         k++;
+     }
+     delete[] temp;
+}
+3.by reversing whole array then reverse seprately array into 2 part
+void reversearray(int *input,int start,int end)
+{
+    for(int i=start;i<end;i++)
+    {
+        int temp=input[i];
+        input[i]=input[end-1];
+        input[end-1]=temp;
+        end--;
+    }
+}
+void rotate(int *input, int d, int n)
+{
+    //Write your code here
+    reversearray(input,0,n);
+    reversearray(input,0,n-d);
+    reversearray(input,n-d,n);
+
+}
