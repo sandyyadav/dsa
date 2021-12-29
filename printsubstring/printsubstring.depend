@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1640671051 source:d:\dsa\dsa\printsubstring\printsubstring.cpp
+	<iostream>
+	<cstring>
+
