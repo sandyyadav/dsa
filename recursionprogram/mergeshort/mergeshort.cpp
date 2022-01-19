@@ -4,26 +4,26 @@ using namespace std;
 
 void mearg(int s[],int start,int end)
 {
-  int * a=new int[start+end];
+  int * a=new int[start+end+1];
     int mid=(start+end)/2;
     int p=start;
     int j=mid+1;
     int k=0;
-       cout<<"\n";
+
      while(p<mid+1&&j<end+1)
      {
 
          if(s[p]>s[j])
          {
              a[k]=s[j];
-            cout<<a[k]<<" ";
+
              j++;
 
          }
          else
          {
              a[k]=s[p];
-            cout<<a[k]<<" ";
+
              p++;
          }
          k++;
@@ -32,26 +32,26 @@ void mearg(int s[],int start,int end)
     while(p<mid+1)
     {
         a[k]=s[p];
-        cout<<a[k]<<" ";
+
         p++;
         k++;
     }
     while(j<end+1)
     {
         a[k]=s[j];
-        cout<<a[k]<<" ";
+
         j++;
         k++;
     }
-    cout<<"\n";
+
     int l=0;
     for(int i=start;i<=end;i++)
     {
         s[i]=a[l];
-         cout<<s[i]<<" ";
+
          l++;
     }
-    delete[] a;
+   delete[] a;
 }
 
 void helper(int s[],int start,int end)
