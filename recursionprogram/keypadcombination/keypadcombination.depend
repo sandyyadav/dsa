@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1642942211 source:d:\dsa\dsa\recursionprogram\keypadcombination\keypadcombination.cpp
+	<iostream>
+	<string>
+	<string>
+
