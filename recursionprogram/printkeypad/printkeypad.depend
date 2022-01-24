@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1642953723 source:d:\dsa\dsa\recursionprogram\printkeypad\printkeypad.cpp
+	<iostream>
+	<string>
+

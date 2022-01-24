@@ -14,6 +14,7 @@ void sort012(int *arr, int n)
             arr[nextzero]=arr[i];
             arr[i]=temp;
             nextzero++;
+            //nextone++;
         }
         if(arr[i]==1)
         {
