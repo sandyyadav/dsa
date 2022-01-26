@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1643188238 source:d:\dsa\dsa\recursionprogram\returnallcodes\returnallcodes.cpp
+	<iostream>
+	<string.h>
+	<map>
+
