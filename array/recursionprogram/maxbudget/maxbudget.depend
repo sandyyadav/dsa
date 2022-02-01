@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1643551094 source:d:\dsa\dsa\recursionprogram\maxbudget\maxbudget.cpp
+	<iostream>
+	<algorithm>
+

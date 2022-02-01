@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1643207589 source:d:\dsa\dsa\recursionprogram\returnpermutationstring\returnpermutationstring.cpp
+	<iostream>
+	<string>
+
