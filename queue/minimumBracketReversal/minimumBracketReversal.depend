@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1647233852 source:d:\dsa\dsa\queue\minimumbracketreversal\minimumbracketreversal.cpp
+	<iostream>
+	<string>
+	"solution.h"
+
+1647233901 d:\dsa\dsa\queue\minimumbracketreversal\solution.h
+	<stack>
+

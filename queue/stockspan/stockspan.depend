@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1647157653 source:d:\dsa\dsa\queue\stockspan\stockspan.cpp
+	<iostream>
+	"solution.h"
+
+1647159291 d:\dsa\dsa\queue\stockspan\solution.h
+	<stack>
+

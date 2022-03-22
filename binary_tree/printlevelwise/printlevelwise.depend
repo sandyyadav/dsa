@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1647929789 source:d:\dsa\dsa\binary_tree\printlevelwise\printlevelwise.cpp
+	<iostream>
+	<queue>
+	"solution.h"
+
+1647930262 d:\dsa\dsa\binary_tree\printlevelwise\solution.h
+

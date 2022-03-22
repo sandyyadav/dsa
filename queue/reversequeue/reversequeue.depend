@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1647079765 source:d:\dsa\dsa\queue\reversequeue\reversequeue.cpp
+	<iostream>
+	<queue>
+

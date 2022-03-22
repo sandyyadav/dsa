@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1646882241 source:d:\dsa\dsa\ai\graph\graph.cpp
+	<iostream>
+	<list>
+

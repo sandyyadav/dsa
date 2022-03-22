@@ -12,6 +12,7 @@ void helper(int arr[],int n,int k,int o[],int p)
                 cout<<o[i]<<" ";
             }
             cout<<"\n";
+            //count++;
             return ;
         }
         else

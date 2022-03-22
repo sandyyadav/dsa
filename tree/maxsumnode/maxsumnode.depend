@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1647711633 source:d:\dsa\dsa\tree\maxsumnode\maxsumnode.cpp
+	<iostream>
+	<queue>
+	<vector>
+	"solution.h"
+
+1647712037 d:\dsa\dsa\tree\maxsumnode\solution.h
+

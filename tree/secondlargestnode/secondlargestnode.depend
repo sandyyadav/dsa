@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1647718646 source:d:\dsa\dsa\tree\secondlargestnode\secondlargestnode.cpp
+	<iostream>
+	<queue>
+	<vector>
+	<climits>
+	"solution.h"
+
+1647719104 d:\dsa\dsa\tree\secondlargestnode\solution.h
+
